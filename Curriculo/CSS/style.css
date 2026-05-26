@@ -38,8 +38,8 @@ html, body{
     /* background: var(--cor-fundo); */
     background: 
     linear-gradient(
-        rgba(255, 255, 255, var(--overlay-opacity))),
-        rgba(255, 255, 255, var(--overlay-opacity)
+        rgba(255, 255, 255, var(--overlay-opacity)),
+        rgba(255, 255, 255, var(--overlay-opacity))
         ),
         var(--bg-image) no-repeat center center fixed;
     background-size: cover;
@@ -137,3 +137,16 @@ figure{
     border: 1px solid var(--cor-borda);
     box-shadow: 0px 1px 2px var(--cor-sombra);
 }
+/* Seta roxa */
+span{
+    position: absolute;
+    top: 18px;
+    left: 20px; /* lado oposto da lua */
+    
+    font-size: 28px;
+    color: purple;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
