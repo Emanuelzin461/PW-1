@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ficha de Inscrição</title>
+</head>
+<body>
+    <div>
+       <div class="ficha">
+
+    <div class="cabecalho">
+        <div class="logos">
+            <strong>CENTRO<br>PAULA SOUZA</strong>
+            <strong>GOVERNO DO ESTADO<br>SÃO PAULO</strong>
+            <strong>ETEC Monsenhor Antônio Magliano</strong>
+        </div>
+
+        <h2>Ficha de Inscrição</h2>
+    </div>
+
+    <label>Nome do Candidato</label>
+    <input type="text" class="campo-grande">
+
+    <div class="linha">
+        <div>
+            <label>Data de</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Documento de</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>CPF</label>
+            <input type="text">
+        </div>
+
+        <div class="sexo">
+            <label>Sexo</label>
+            <input type="radio" name="sexo"> M
+            <input type="radio" name="sexo"> F
+        </div>
+
+        <div class="deficiencia">
+            <input type="radio" name="mao"> Destro<br>
+            <input type="radio" name="mao"> Canhoto
+        </div>
+    </div>
+
+    <label>Endereço</label>
+    <div class="linha">
+        <input type="text" placeholder="Rua/Avenida, Praça" class="endereco">
+        <input type="text" placeholder="Número" class="numero">
+        <input type="text" placeholder="Complemento" class="complemento">
+    </div>
+
+    <div class="linha">
+        <div>
+            <label>Bairro</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Cidade</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Estado</label>
+            <select>
+                <option>Selecione...</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+                <option>Minas Gerais</option>
+                <option>Paraná</option>
+                <option>Outros</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="linha">
+        <div>
+            <label>CEP</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Telefone</label>
+            <input type="text">
+        </div>
+
+        <div>
+            <label>Celular</label>
+            <input type="text">
+        </div>
+
+        <div class="escola">
+            <input type="radio" name="escola"> Escola Pública
+            <input type="radio" name="escola"> Escola Particular
+        </div>
+    </div>
+
+    <div class="linha">
+        <div>
+            <label>E-Mail</label>
+            <input type="email">
+        </div>
+
+        <div>
+            <label>Ano de conclusão do</label>
+            <input type="text">
+        </div>
+
+        <div class="treineiro">
+            <label>Treineiro</label>
+            <input type="radio" name="treineiro"> Sim
+            <input type="radio" name="treineiro"> Não
+        </div>
+    </div>
+
+    <div class="necessidades">
+        <label>É Portador de Necessidades Especiais?</label>
+
+        <div class="opcoes">
+            <label>
+                <input type="checkbox">
+                Deficiente Visual
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Deficiente Auditivo
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Deficiente Físico
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Múltiplas Deficiências
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Outros:
+            </label>
+        </div>
+    </div>
+
+    <div class="parte-final">
+
+        <div class="curso">
+            <h3>Opção de Curso</h3>
+
+            <select>
+                <option>Selecione...</option>
+                <option>Administração</option>
+                <option>Desenvolvimento de Sistemas</option>
+                <option>Eletrônica</option>
+                <option>Enfermagem</option>
+                <option>Informática</option>
+            </select>
+
+            <button type="button">Tabela de Curso no Verso...</button>
+        </div>
+
+        <div class="atencao">
+            <strong>ATENÇÃO</strong>
+            <p>
+                Leia, preencha e recolha a taxa de
+                <strong>R$50,00</strong> na tesouraria da ETEC.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="botoes">
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+        <button type="button" onclick="window.print()">Imprimir</button>
+    </div>
+
+</div> 
+    
+ </body>
+</html>
